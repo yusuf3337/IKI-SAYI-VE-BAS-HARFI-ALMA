@@ -7,23 +7,35 @@ int main(int argc, char *argv[]) {
 	
 		//IKI SAYI VE BAS HARF ALMA PROGRAMI
 	
-	int ilksayi;
-	float ikincisayi;
-	char ilkharf;
-	
-	printf("IlkSayiyi Giriniz : \n");
-	scanf("%d",&ilksayi);
-	
-	printf("IkinciSayiyi Giriniz : \n");
-	scanf("%f",&ikincisayi);
-	
-	printf("IlkHarfi Giriniz : \n");
-	scanf(" %c",&ilkharf);
-	
-	printf("Ilksayi %d\n",ilksayi);
-	printf("Ikincisayi %.2f\n",ikincisayi);
-	printf("Ilkharf %c\n",ilkharf);
-	
+    int ilksayi;
+    float ikincisayi;
+    char karakter;
+    
+    printf("İlk sayiyi giriniz :");
+    scanf("%d",&ilksayi);
+    
+    printf("İkinci sayiyi giriniz :");
+    scanf("%f",&ikincisayi);
+    
+    printf("Karakter giriniz :");
+    scanf(" %c",&karakter);
+    
+    //EFFECT
+    printf("\n");
+    printf("---------------------------------------------------->DONE!\n");
+    
+    
+    
+    printf("İlk sayi %d\n",ilksayi);
+    printf("İkinci sayi %f\n",ikincisayi);
+    printf("Karakter %c\n",karakter);
+    
+    
+    
+    
+    
+    
+    	
 	
 	return 0;
 }
